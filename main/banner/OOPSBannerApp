@@ -1,20 +1,18 @@
 /**
- * OOPSBannerApp
- * 
- * UC1: Print the literal text "OOPS" to the console.
- * This is the foundational step of the OOPS Banner App project.
- * 
- * @author YourName
- * @version 1.0
+ * UC3 - Full OOPS Banner using String.join(" ", ...)
+ 
  */
-
-public class OOPSBannerApp {
-
-    
+public class stepoops{
     public static void main(String[] args) {
 
-        // Printing literal text to console
-        System.out.println("OOPS");
+        // Hint: Use String.join(" ", ...) to join the parts of each line with spaces.
+        System.out.println(String.join("   ", "   ***  ", "   ***  ", "  *****  ", "  ***** "));
+        System.out.println(String.join("   ", " **   **", " **   **", " **   **", " **     "));
+        System.out.println(String.join("   ", "**     **", "**     **", "**   **", "**      "));
+        System.out.println(String.join("   ", "**     **", "**     **", "*****   ", " *****  "));
+        System.out.println(String.join("   ", "**     **", "**     **", "**      ", "      **"));
+        System.out.println(String.join("   ", " **   ** ", " **   ** ", "**      ", " **   **"));
+        System.out.println(String.join("   ", "  ***    ", "  ***    ", "**      ", "   ***   "));
 
     }
 }
